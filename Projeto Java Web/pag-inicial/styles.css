@@ -1,6 +1,8 @@
-body{
+html, body{
     background-color: #EDF1F6;
-    color: #262626;
-    height: 100vh;
-    margin: 0px;
+    color: #363636;
+    height: 100%;
+    margin-top: 0vh;
+    width: 100%;
 }
+
