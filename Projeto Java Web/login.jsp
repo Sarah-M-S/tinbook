@@ -15,7 +15,7 @@
     <header>
 
         <div id="cabecalho">
-            <img src="img/logo-pagina.png" alt="logo do Tinbook" id="logo">
+            <img src="img/logo-pagina-removebg-preview.png" alt="logo do Tinbook" id="logo">
 
         </div>
 
@@ -28,7 +28,7 @@
 
         </div>
         <article>
-            <h1 class="texto">Encontre j· seu o seu livro</h1><br>
+            <h1 class="texto">Encontre j√° seu o seu livro</h1><br>
             <div id="campos_cadastro">
 
                 <form method="post" action="validacaoCadastro.jsp">
@@ -43,27 +43,29 @@
                 <label for="cad_cpf" class="texto">CPF</label>
                 <br><input type="text" id="cad_cpf" name="cad_cpf"><br>
 
-                <label for="cad_usuario" class="texto">Usu·rio</label> <label class="texto lbl_grid2"
+                <label for="cad_usuario" class="texto">Usu√°rio</label> <label class="texto lbl_grid2"
                     for="cad_Senha">Senha</label>
                 <br><input type="text" id="cad_usuario" name="cad_usuario"> <input type="text" id="cad_senha" name="cad_senha"><br>
 
                 <br><input type="submit" value="Cadastrar"> 
                 </form>
-                <a href="https://www.sodimac.com.br/sodimac-br/frete-gratis-app?cid=bnehom13257" id="link_usuario">J· sou Usu·rio</a>
+                <br>
+                <h2 class="texto">J√° sou usu√°rio</h2>
+                <form action="" id="log_form">
+                    <label for="log_usr" class="texto">Login</label><br>
+                    <input type="text" id="log_usr" name="log_usr">
+                    <br><br>
+                    <label for="log_sen" class="texto">Senha</label><br>
+                    <input type="text" id="log_sen" name="log_sen">
+                    <input type="submit" value="Logar" id="sub_logar">
+                </form>
+                
             </div>
 
         </article>
     </section>
     <footer>
-     
-     <p class="texto_footer">Duvidas ou reclamaÁıes entre em contato:
-         <br>davi.siqueira@aluno.ifsp.edu.br
-         <br>santiago.sarah@aluno.ifsp.edu.br</p>
-     <h4>2023 Tinbook IFSP - Projeto JSP</h4>
-     
-     
+     <h4> 2023 Tinbook IFSP - Projeto JSP</h4>
     </footer>
-
 </body>
-
 </html>
