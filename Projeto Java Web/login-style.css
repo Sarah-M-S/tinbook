@@ -10,12 +10,13 @@ body{
 }
 
 header{
-    background-color: white;
+    background-image: url(img/fundo-cabecalho2.png);
     height: 100px;
 }
 
 #cabecalho{
     position: relative;
+
     
 }
 #logo{
@@ -57,6 +58,13 @@ h1{
     font-family: 'verdana';
 }
 
+h2{
+    font-family: 'verdana';
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
 #livros{
     height: 600px;
     width: 800px;
@@ -83,23 +91,33 @@ h1{
 }
 
 footer{
-    background-color: rgb(243, 143, 235);
+    background-image: url(img/fundo-footer.png);
     height: 150px;
     width: 100%;
     position: absolute;
     margin-top: 700px;
     
     text-align: center;
-    color: blueviolet;
+    
+    
     
 }
 
 h4{
     margin-top: 30px;
+    text-align: center;
 }
 
-.texto_footer{
-    text-align:left;
-    margin-top: 35px;
-    margin-left: 40px;
+
+#log_form{
+    margin-top: 20px;
+}
+
+#sub_logar{
+    width: 150px;
+    height: 80px;
+    float: right;
+    margin-top: -60px;
+    background-color: rgba(184, 177, 243, 0.452);
+    
 }
