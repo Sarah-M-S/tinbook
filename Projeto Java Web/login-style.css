@@ -7,6 +7,7 @@ body{
     position: relative;
     background-image: url(img/background-pagina.jpg);
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header{
@@ -41,19 +42,20 @@ article{
     background-position-y: 30px;
     background-position-x: -400px;
     background-repeat: no-repeat;
-    background-size: 1200px 500px;
+    background-size: 140vh 60vh;
+    box-sizing: border-box;
    
     
 
 }
 #campos_cadastro{
-   margin-left: 20px;
+   margin-left: 7vh;
   
 }
 
 h1{ 
     font-size: 23px;
-    padding-left: 30px;
+    padding-left: 7vh;
     padding-top: 10px;
     font-family: 'verdana';
 }
@@ -92,13 +94,12 @@ h2{
 
 footer{
     background-image: url(img/fundo-footer.png);
-    height: 150px;
+    height: 25vh;
     width: 100%;
     position: absolute;
-    margin-top: 700px;
-    
+    margin-top: 51%;
     text-align: center;
-    
+
     
     
 }
